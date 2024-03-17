@@ -1,0 +1,5 @@
+##create project 
+---golang go mod init appName
+
+##run golang
+---go run app.go
