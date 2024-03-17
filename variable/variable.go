@@ -5,8 +5,10 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, Golang! ...") // output
 
-	// constants variables
+	// create constants variables
 	const money string = "ThaiBath"
+
+	fmt.Println(money) //output constants
 
 	// create variables
 	var firstName string = "Chwit" // string
@@ -15,8 +17,6 @@ func main() {
 	score := 112.21                // int || number
 	var isActive bool = false      // boolean
 	isPass := true                 // boolean
-
-	fmt.Println(money) //output constants
 
 	fmt.Println("ชื่อ", firstName, lastName) //output
 	fmt.Println("อายุ", age)                 //output
